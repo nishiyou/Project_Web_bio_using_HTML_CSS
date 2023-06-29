@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Egoly Personal Web</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    </head>
+
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/logo.jpeg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">SUPPRISE</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+<div class="text-box">
+    <h1>My Biography</h1>
+    <p>This is my learning website where i will do random shit in this website.</p>
+    <a href="" class="hero-btn">Button</a>
+</div>
+
+
+</section>
+<!--------bio--------->
+<section class="bio">
+    <h1>Hi My Name is Aaron Jason</h1>
+    <p>Currently im still 21 but in april i will be 22 by the time im making this. My hobby is code and playing rythm games like Maimai, Osu!, and many more.</p>
+    <div class="row">
+        <div class="bio-col">
+            <h3>Why FrontEnd</h3>
+            <p>Cause Aaron likes making interface that any person can easily use and fast to understand. <br>When he still in highschool, he likes playing PC game. <br>By the time that he need to choose an Uni, he just instanlly want to take a coding course. <br>In The Uni, he learn manythings and the one thing thats stand out for him is doing an FrontEnd Job.</p>
+        </div>
+        <div class="bio-col">
+            <h3>About Me</h3>
+            <p>Aaron is the type where hes enthusiast at something <BR>he find intresting. He allready do so many project for Uni task and the one thing he likes is making the Ui/Ux for any mobile app and websites. <br>Thats why he likes doing FrontEnd</p>
+        </div>
+        
+        <div class="bio-col">
+            <h3>Why Anime</h3>
+            <p>Yes. I been like anime for a long time right now.</p>
+        </div>
+    </div>
+</section>
+
+<section class="mydata">
+    <h1>Next is my personal bio</h1>
+    <p>Lorem Ipsum</p>
+
+
+    <div class="row">
+        <div class="mydata-col">
+            <img src="images/Profile.jpg">
+            <div class="layer">
+                <h3>Me</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+</script>
+</body>
+</html>
